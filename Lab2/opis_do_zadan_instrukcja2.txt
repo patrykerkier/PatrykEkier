@@ -1,0 +1,5 @@
+Zad1    stworzone zostały wszystkie klasy tak jak w poleceniu z dodatkowa klasa cechy wspolne z ktorej inne klasy dziedzicza rzeczy.
+Wybralem takie rozwiazanie, ponieważ zaoszczędza to  wpisywania poraz kolejny tych samych parametrow.
+zad2    kod został poszerzony o metode  "wypozycz" oraz o parametry podane w poleceniu takie jak np.  czas wypozyczenia, kara za nie oddanie w terminie.  testowo zostal stworzony jeden Obiekt " płyta".
+zad3.
+Została stworzona klasa o nazwie Osoba w której są dwie metody. rejestracja oraz wypozyczenie. Gdy nowy osoba wybierze rejestracje tworzy nowe konto do biblioteki i dostaje swój numer logowania.  jeśli osoba posiada już konto  może sie zalogować i wypożyczyć dowolną rzecz. Dodatkowo program pyta nas czy posiadamy jakieś zalegle kary. Jeśli tak to  nie pozwala nam wypożyczyć kolejnej rzeczy. 

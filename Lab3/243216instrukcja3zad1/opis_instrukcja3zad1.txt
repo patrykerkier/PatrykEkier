@@ -1,0 +1,7 @@
+Po uruchomieniu programu dostajemy pytanie którą metode sortowania wybieramy. Następnie po wybraniu metody uruchamiana zostaje wybrana metoda sortowania i wyświetla nam randomowo wybrane liczby a następnie posortowane. Dodatkowo w sortowaniu bubble zlicza nam ilosć porownań. W sortowaniu Bucket nie zlicza nam ilości porównań, ponieważ w tej metodzie liczby nie są porównywane do siebie tylko sortowane.
+
+ Stworzone zostały klasy  bubble oraz BucketSort  w których stworzona została instrukcja do poszczególnych sortowań. 
+Interfejs został stworzony jak w instukcji.
+Program tworzy randomowe liczby, oraz zabespiecza nas przed powtarzaniem się tych samych liczb. 
+Następnie w funkcji warunkowej zostaje wybrany rodzaj sortowania.
+Dodatkowo w sortowaniu bubble z każdym powtorzeniem pętli porównującej zostaje zliczana ilość porownań.

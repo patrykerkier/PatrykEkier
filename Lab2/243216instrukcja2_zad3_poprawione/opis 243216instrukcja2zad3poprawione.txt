@@ -1,0 +1,13 @@
+Po otrzymaniu Pani wiadomości z uwagami dotyczącymi zadania z lab2, postanowilem stworzyć wypożyczalnię jeszcze raz.
+Do programu zaimportowałem następujące biblioteki:
+ java.time.Period;
+ java.time.ZonedDateTime;
+ java.time.format.DateTimeFormatter;
+ java.util.Scanner;
+W programie została stworzona klasa cechy wspolne,klasy takie jak w poleceniu (książka,Audiobook i tp.),które dziedziczą parametry z cechy wspolne , oraz klasa Osoba odpowiedzialna za rejestracje nowego członka biblioteki oraz jego cechy. Program posiada przykładowe wyposażenie biblioteki. W klasach Cechy wspolne, ksiązka, Audiobook i tp.  został stworzony konstuktor. w Klasie Osoba  znajduje się konstuktor oraz metoda odpowiedzialna za rejestracje. W klasie Main została stworzona biblioteka za pomocą konstuktorów z innych klas. Klasa Main posiada 2 metody: logowanie  i menu . Wszelka interakcja pomiędzy programem a użytkownikiem wystepuje za pomoca switch case oraz instrukcji warunkowych. 
+
+Po odpaleniu programu wyświetlaja sie opcje Logowanie , Rejestracja.   w opcji rejestracja tworzymy nowe konto. Jeśli  w programie istnieja juz jakies konta urzytkownikow  mozemy sie zalogowac opcja Logowanie.  W opcji logowanie  wprowadzamy nasze dane logowania. Jeśli dane sa nie poprawne wyskoczy nam komunikat. Jeśli dane sa poprawne zalogujemy się. Po zalogowaniu mamy możliwość wybrac co chemy zrobic (wypożycz, oddaj, wyloguj, oraz opcje kalendarz służąca do symulowania zmiany daty).Jeśli wybierzemy opcję wypozycz pokazuje nam sie lista zasobow biblioteki. jeśli po wylogowaniu inna osobe będzie chciala wypozyczyc juz wczesniej wypozyczona rzecz wyskoczy komunikat. Jeśli ustawimy date na dzien w ktorym czas wypozyczenia jest przekroczony nie będziemy mogli wypozyczyc kolejnej rzeczy(do mometu oddania) oraz naliczona zostanie kara.
+
+
+
+

@@ -1,0 +1,1 @@
+Program tworzy tablice i wypełnia ją wartościami, nastepnie decydujemy który element tablicy chcemy wyświetlić. Programy wyświetla nam wartośc wybranego elementu tablicy. jeśli wybierzemy nieistniejący element (ArrayIndexOutOfBoundsException), albo nieprawidłowy znak z klawiatury (InputMismatchException) program wyświetli nam komunikat o nieprawidłowości. 

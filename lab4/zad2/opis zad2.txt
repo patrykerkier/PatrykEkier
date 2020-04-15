@@ -1,0 +1,1 @@
+Do prograsmu wprowadzamy dwa parametry funkcji. Jeśli metoda potrafi obsłuzyć podane znaki wyświetla nam wynik. Jeżeli metoda nie obsługuje podanych wartości wyświetla nam komunikat " wprowadziłeś złe dane" . 

@@ -1,0 +1,12 @@
+Wszystkie zdania zostały zawarte w jednym pliku. Pierwszą czynnością po przepisaniu kodu było dodanie nowego endpointa, tym samym zmieniając 
+jego nazwę.Utworzone zostały klasy bye i byeController, które są anologiczne do klas greeting i greetingController podanych w instrukcji
+(Jedyna różnica to zmieniony template - inny komunikat, hello" zmieniono na "bye"). Następnie zmieniono/dodano parametry zwracane przez JSON-
+dodano wiek oraz rodzaj imienia (męskie/żeńskie) -  w tym celu rozszerzona klasę Greeting o nowe zmienne ("parametry") oraz użyto @RequestParam w klasie
+greetingController. Aby rozróżnić czy imię jest męskie czy zeńskie uzyto instrukcji
+warunkowych if, gdzie sprawdzamy jaka jest ostania litera imienia (jeżeli jest to "a" to jest to imię żeńskie). 
+
+
+
+
+JSON (ang. JavaScript Object Notation) to format zapisu i wymiany danych. Jest to format tekstowy. Uważany jest za format czytelny zarówno dla maszyn jak i dla ludzi.
+Dane formatowane przy użyciu JSON mogą być określane się jako application/json. Ta wartość może być zawarta w nagłówkach HTTP określając typ akceptowanych/wysyłanych danych.
